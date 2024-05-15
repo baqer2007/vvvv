@@ -1,8 +1,43 @@
-rich==13.7.1
-requests==2.31.0
-user_agent==0.1.10
-time==6.2.0
-hashlib==6.2.0
-uuid==1.30
-random==6.2.0
-concurrent.futures==6.2.0
+import os
+try:
+  from rich.console import Console
+  from rich.live import Live
+except:
+  os.system("pip install rich")
+  from rich.console import Console
+  from rich.live import Live
+try:
+  import requests
+except:
+  os.system("pip install requests")
+  import requests
+try:
+  from user_agent import generate_user_agent
+except:
+  os.system("pip install user_agent")
+  from user_agent import generate_user_agent
+try:
+  from time import time
+except:
+  os.system("pip install time")
+  from time import time
+try:
+  from hashlib import md5
+except:
+  os.system("pip install hashlib")
+  from hashlib import md5
+try:
+  from uuid import uuid4
+except:
+  os.system("pip install uuid")
+  from uuid import uuid4
+try:
+  from random import randrange,choice
+except:
+  os.system("pip install random")
+  from random import randrange,choice
+try:
+  from concurrent.futures import ThreadPoolExecutor
+except:
+  os.system("pip install concurrent.futures")
+  from concurrent.futures import ThreadPoolExecutor
