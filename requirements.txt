@@ -1,1 +1,9 @@
-# حط مكاتبك
+os=2.1.1
+rich=2.1.1
+requests=2.1.1
+user_agent=2.1.1
+time=2.1.1
+hashlib=2.1.1
+uuid=2.1.1
+random=2.1.1
+concurrent.futures=2.1.1
