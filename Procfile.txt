@@ -1,1 +1,1 @@
-worker: python random_tiktok_tool_bb.py
+worker:python-random_tiktok_tool_bb.py
