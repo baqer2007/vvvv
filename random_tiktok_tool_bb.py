@@ -52,8 +52,8 @@ RED = '\033[91m'
 GREEN = '\033[92m'
 CYAN = '\033[96m'
 MAGENTA = '\033[95m'
-ID = input(f"{YELLOW}{BOLD}ID :  ")
-token = input(f"{RED}{BOLD}Token : ")
+ID = input(f"{YELLOW}{BOLD}ID :7089682575:AAGoyW7kbsdYjP_XYDvxG7rZjQVwsARRwoY")
+token = input(f"{RED}{BOLD}Token :5991890738")
 from requests import post as pp
 from user_agent import generate_user_agent as gg
 from random import choice as cc
