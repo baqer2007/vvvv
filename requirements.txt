@@ -1,8 +1,5 @@
-pip install rich==13.7.1
-pip install requests==2.31.0
-pip install user_agent==0.1.10
-pip install time==5.5
-pip install hashlib==6.2.0
-pip install uuid==1.30
-pip install random==6.2.0
-pip install concurrent.futures==6.2.0
+rich==13.7.1
+requests==2.31.0
+user_agent==0.1.10
+time==5.5
+uuid==1.30
