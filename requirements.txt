@@ -1,9 +1,9 @@
-os==2.1.0
-rich==6.2.0
-requests==6.2.0
-user_agent==6.2.0
+os==3.9
+rich==13.7.1
+requests==2.31.0
+user_agent==0.1.10
 time==6.2.0
 hashlib==6.2.0
-uuid==6.2.0
+uuid==1.30
 random==6.2.0
 concurrent.futures==6.2.0
